@@ -1,6 +1,6 @@
-# fly.toml file generated for petpals-jga on 2022-12-02T22:33:41+01:00
+# fly.toml file generated for pet-pals on 2023-01-24T11:35:57+01:00
 
-app = "petpals-jga"
+app = "pet-pals"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
@@ -17,7 +17,6 @@ processes = []
   PORT = "8080"
 
 [experimental]
-  allowed_public_ports = []
   auto_rollback = true
 
 [[services]]
